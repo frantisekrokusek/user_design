@@ -1,0 +1,32 @@
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #38d39F;
+  box-sizing: border-box;
+}
+
+form .btn {
+  width: 100%;
+  padding: 10px 0;
+  margin: 16px 0;
+}
+
+/* Add padding to containers */
+.login-container {
+  padding: 8px;
+}
+
+/* The "Forgot password" text */
+span {
+  float: right;
+  padding-bottom: 8px;
+}
+
+.login a {
+  text-decoration: none;
+  color: #38D39F;
+}
+
