@@ -12,3 +12,18 @@
 .btn:hover {
   opacity: 1;
 }
+
+.btn-white {
+  border-radius: 32px 32px 4px 32px;
+  color: #38d39f;
+  padding: 8px 16px;
+  transition: background-color .3s;
+  opacity: .8;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0px 8px;
+}
+
+.btn-white:hover {
+  opacity: 1;
+}

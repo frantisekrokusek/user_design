@@ -5,6 +5,7 @@
 .navbar .container {
   display: flex;
   height: 80px;
+  justify-content: space-between;
 }
 
 .nav-brand {
