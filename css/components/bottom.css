@@ -1,0 +1,130 @@
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* MENU */
+
+.menu {
+  background-color: white;
+  width: 240px;
+  border-radius: 16px;
+  padding: 8px 8px 32px 8px;
+  flex: 0 1 auto;
+  margin-right: 16px;
+  position: relative;
+}
+
+.menu h3 {
+  margin: 8px 0;
+  text-transform: uppercase;
+  font-family: Karla, Arial, sans-serif;
+  color: #38D39f;
+  opacity: .8;
+  flex-direction: column;
+  align-items: left;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item:hover {
+  color: #38D39f;
+}
+
+.menu-item i {
+  margin-left: 8px;
+  font-size: 1.5em;
+}
+
+.menu-item p {
+  margin-left: 16px;
+}
+
+.menu .btn {
+  border-radius: 32px;
+  position: absolute;
+  min-width: 80px;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: -16px;
+}
+
+
+/* TABLES */
+
+.tables {
+  flex: 1 0 auto;
+  display: flex;
+}
+
+table {
+  flex-grow: 1;
+}
+
+.tables-header {
+  padding: 0 8px;
+}
+
+tr {
+  display: flex;
+  border-radius: 16px;
+  padding: 16px 8px;
+  margin-bottom: 8px;
+}
+
+td {
+}
+
+th {
+  text-align: left;
+}
+
+th i {
+  opacity: .5;
+}
+
+th i:hover {
+  opacity: 1;
+}
+
+.tables-row {
+  background-color: white;
+}
+
+.tables-check,
+.tables-type {
+  flex: 0 0 4%;
+}
+
+.tables-title {
+  flex: 1 0 auto;
+}
+
+.tables-status {
+  flex: 0 0 10%;
+}
+
+.tables-date {
+  flex: 0 0 10%;
+}
+
+.tables-edit,
+.tables-delete {
+  color: #38D39f;
+  flex: 0 0 4%;
+}
+
+.fa-lock-open {
+  color: #D80D10;
+}
+
+.fa-lock {
+  color: #38D39f;
+}
+
+input[type="checkbox" i] {
+    background-color: #38d39f;
+}
